@@ -1,6 +1,14 @@
 {
 	"title": "Home",
 	"model": {
-		"foo": "bar"
+		"pageBuilder": [
+			{
+				"type": "intro",
+				"value": {
+					"title": "Home page",
+					"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo doloribus quidem, autem suscipit nulla minima temporibus facere quae labore exercitationem fugit soluta, facilis vero reiciendis molestias! Delectus assumenda voluptatibus maxime."
+				}
+			}
+		]
 	}
 }

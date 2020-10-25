@@ -1,3 +1,14 @@
 {
-	"title": "About"
+	"title": "About",
+	"model": {
+		"pageBuilder": [
+			{
+				"type": "intro",
+				"value": {
+					"title": "About page",
+					"content": "Laboriosam eligendi molestias fuga perferendis quasi aperiam. Doloribus ab facere nesciunt sit, minus tempora voluptatibus quaerat harum possimus perspiciatis ipsum explicabo iste cumque aspernatur."
+				}
+			}
+		]
+	}
 }
