@@ -1,8 +1,6 @@
 <template>
 	<div>
-		<pre>
-			{{ $data }}
-		</pre>
+		<page-builder :components="$data.model.pageBuilder" />
 	</div>
 </template>
 
