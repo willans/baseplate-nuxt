@@ -15,11 +15,11 @@
 </template>
 
 <script>
-export default {
-	data() {
-		return {
-			global: require('../../content/global.json'),
-		};
-	},
-};
+	export default {
+		data() {
+			return {
+				global: require('../../content/global.json'),
+			};
+		},
+	};
 </script>

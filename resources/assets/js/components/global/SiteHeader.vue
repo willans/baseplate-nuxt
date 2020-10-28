@@ -16,14 +16,14 @@
 </template>
 
 <script>
-export default {
-	inheritAttrs: false,
+	export default {
+		inheritAttrs: false,
 
-	props: {
-		links: {
-			type: Array,
-			default: null,
+		props: {
+			links: {
+				type: Array,
+				default: null,
+			},
 		},
-	},
-};
+	};
 </script>

@@ -5,20 +5,20 @@
 </template>
 
 <script>
-export default {
-	layout: 'simple',
+	export default {
+		layout: 'simple',
 
-	props: {
-		error: {
-			type: Object,
-			default: null,
+		props: {
+			error: {
+				type: Object,
+				default: null,
+			},
 		},
-	},
 
-	head () {
-		return {
-			title: this.$props.error.statusCode,
-		};
-	},
-};
+		head () {
+			return {
+				title: this.$props.error.statusCode,
+			};
+		},
+	};
 </script>

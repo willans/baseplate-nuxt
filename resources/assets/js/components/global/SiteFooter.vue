@@ -16,20 +16,20 @@
 </template>
 
 <script>
-export default {
-	inheritAttrs: false,
+	export default {
+		inheritAttrs: false,
 
-	props: {
-		social: {
-			type: Array,
-			default: null,
+		props: {
+			social: {
+				type: Array,
+				default: null,
+			},
 		},
-	},
 
-	data() {
-		return {
-			year: new Date().getFullYear(),
-		};
-	},
-};
+		data() {
+			return {
+				year: new Date().getFullYear(),
+			};
+		},
+	};
 </script>
